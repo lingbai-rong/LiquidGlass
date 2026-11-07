@@ -1,0 +1,429 @@
+<resources>
+    <string name="app_name">LiquidGlass</string>
+    <string name="module_desc">Add liquid glass to apps</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_config">Config</string>
+
+    <string name="home_title">LiquidGlass</string>
+    <string name="home_status_title">Working</string>
+    <string name="home_working_version">Version: %1$s</string>
+    <string name="home_status_summary">%1$d apps enabled and %2$d installed adapters available</string>
+    <string name="home_enabled_apps">Enabled apps</string>
+    <string name="home_installed_apps">Installed adapters</string>
+    <string name="home_device_info">Device information</string>
+    <string name="home_device_name">Device name</string>
+    <string name="home_device_model">Device</string>
+    <string name="home_system">System</string>
+    <string name="home_render_mode">Current renderer</string>
+    <string name="home_version">Module version</string>
+    <string name="render_mode_native">HyperOS native blur</string>
+    <string name="render_mode_capture">Backdrop capture glass</string>
+    <string name="render_mode_disabled">Backdrop capture disabled</string>
+    <string name="config_title">Config</string>
+    <string name="config_subtitle">Apps and global appearance</string>
+    <string name="about_module">About LiquidGlass</string>
+    <string name="about_module_summary">Release %1$s · by Bai</string>
+
+    <string name="search_settings">Search settings</string>
+    <string name="no_matching_settings">No matching settings</string>
+    <string name="section_features">Features</string>
+    <string name="global_appearance">Global appearance</string>
+    <string name="global_appearance_summary">Sync size, blur and glass parameters</string>
+    <string name="section_app_settings">App settings</string>
+    <string name="mi_apps">Xiaomi apps</string>
+    <string name="mi_apps_summary">%1$d/%2$d apps installed</string>
+    <string name="section_other">Other</string>
+    <string name="missing_apps">Not installed</string>
+    <string name="missing_apps_summary">%1$d supported apps are not installed</string>
+    <string name="unable_open_author">Unable to open the author page</string>
+    <string name="missing_apps_page_summary">Install an app to open its settings</string>
+    <string name="missing_apps_empty">All supported apps are installed</string>
+    <string name="mi_apps_page_summary">Independent support for HyperOS system apps</string>
+    <string name="mi_apps_empty">No Xiaomi app adapters are available</string>
+    <string name="state_not_installed">Not installed</string>
+    <string name="state_enabled">Enabled</string>
+    <string name="state_disabled">Disabled</string>
+
+    <string name="module_settings_title">Settings</string>
+    <string name="module_settings_subtitle">Language, launcher entry and other options</string>
+    <string name="account_cancel">Cancel</string>
+    <string name="section_interface">Personalization</string>
+    <string name="show_launcher_icon">Show launcher icon</string>
+    <string name="show_launcher_icon_summary">When disabled, the desktop entry disappears. The app can still be opened from LSPosed module settings.</string>
+    <string name="language">Language</string>
+    <string name="section_advanced">General</string>
+    <string name="developer_options">Developer options</string>
+    <string name="developer_options_summary">App icon loading, debugging and experimental features</string>
+    <string name="launcher_icon_hidden">Launcher icon hidden</string>
+    <string name="launcher_icon_shown">Launcher icon shown</string>
+    <string name="launcher_icon_failed">Unable to change launcher icon state</string>
+
+
+    <string name="language_title">Language</string>
+    <string name="language_subtitle">Choose the display language for the module settings app</string>
+    <string name="language_system">Follow system</string>
+    <string name="language_zh_cn">简体中文</string>
+    <string name="language_zh_tw">繁體中文</string>
+    <string name="language_en">English</string>
+    <string name="language_change_failed">Unable to change language</string>
+
+    <string name="developer_title">Developer options</string>
+    <string name="developer_subtitle">Debugging and experimental features</string>
+    <string name="developer_section_apps">App information</string>
+    <string name="developer_read_app_icons">Load app icons</string>
+    <string name="developer_read_app_icons_summary">Read real icons from installed apps for the config list; when disabled, letter placeholders are used.</string>
+    <string name="developer_section_appearance">Interface experiments</string>
+    <string name="developer_page_wallpaper">Enable page wallpaper</string>
+    <string name="developer_page_wallpaper_summary">Show the character artwork on the Home, Config and Settings pages; disabled by default.</string>
+
+    <!-- WeKit HomeSidePanel resources (GPL-3.0), kept with upstream names. -->
+    <string name="action_add">Add</string>
+    <string name="action_back">Back</string>
+    <string name="action_restore_defaults">Restore defaults</string>
+    <string name="action_save">Save</string>
+    <string name="fab_all_marked_read">All unread messages marked as read</string>
+    <string name="fab_default_channels">Channels</string>
+    <string name="fab_default_favorites">Favorites</string>
+    <string name="fab_default_force_stop">Force stop</string>
+    <string name="fab_default_mark_all_read">Mark all as read</string>
+    <string name="fab_default_module_settings">Module settings</string>
+    <string name="fab_default_moments">Moments</string>
+    <string name="fab_default_restart_wechat">Restart WeChat</string>
+    <string name="fab_default_scan">Scan</string>
+    <string name="fab_default_settings">Settings</string>
+    <string name="fab_default_wallet">Wallet</string>
+    <string name="home_side_panel_action_launch_failed">Could not open this action in the current WeChat version</string>
+    <string name="home_side_panel_add_action">Add action</string>
+    <string name="home_side_panel_add_card">Add card</string>
+    <string name="home_side_panel_attribution_author">— %1$s</string>
+    <string name="home_side_panel_attribution_author_source">— %1$s, “%2$s”</string>
+    <string name="home_side_panel_attribution_source">— “%1$s”</string>
+    <string name="home_side_panel_auto_detect">Auto-detect</string>
+    <string name="home_side_panel_card_date_time">Date and time</string>
+    <string name="home_side_panel_card_hitokoto">Hitokoto</string>
+    <string name="home_side_panel_card_horizontal_actions">Horizontal tiles</string>
+    <string name="home_side_panel_card_vertical_actions">Vertical list</string>
+    <string name="home_side_panel_card_wallet">Wallet</string>
+    <string name="home_side_panel_card_weather">Weather</string>
+    <string name="home_side_panel_categories">Categories</string>
+    <string name="home_side_panel_current_balance">Current balance</string>
+    <string name="home_side_panel_current_city">Current city: %1$s %2$s</string>
+    <string name="home_side_panel_date_pattern">MMM d, EEE</string>
+    <string name="home_side_panel_date_time_settings">Date &amp; time settings</string>
+    <string name="home_side_panel_delete_action">Delete action</string>
+    <string name="home_side_panel_delete_card">Delete card</string>
+    <string name="home_side_panel_delete_empty_action_card">Delete empty action card</string>
+    <string name="home_side_panel_discard_editing">Close and discard changes</string>
+    <string name="home_side_panel_drag_action">Drag action to reorder within this card</string>
+    <string name="home_side_panel_drag_add_action">Drag to insert this action</string>
+    <string name="home_side_panel_drag_add_card">Drag to insert this card</string>
+    <string name="home_side_panel_drag_card">Drag card to reorder</string>
+    <string name="home_side_panel_edit_card">Edit card</string>
+    <string name="home_side_panel_enter_edit_mode">Enter edit mode</string>
+    <string name="home_side_panel_fallback_initial">W</string>
+    <string name="home_side_panel_feels_like">Feels like %1$s°</string>
+    <string name="home_side_panel_fetch_failed">Failed to load</string>
+    <string name="home_side_panel_geocoder_failed">Could not convert the current location into a city</string>
+    <string name="home_side_panel_greeting_afternoon">Good afternoon. Hope everything goes smoothly today.</string>
+    <string name="home_side_panel_greeting_evening">Good evening. Rest well tonight.</string>
+    <string name="home_side_panel_greeting_morning">Good morning. Keep your spirits up today.</string>
+    <string name="home_side_panel_hide_balance_default">Hide balance by default</string>
+    <string name="home_side_panel_hide_balance_details">When enabled, tap the wallet card to temporarily show or hide the balance. Closing the side panel restores the hidden state. Temporary state is not saved.</string>
+    <string name="home_side_panel_hide_balance_summary">Show ****** when the side panel opens</string>
+    <string name="home_side_panel_hide_wechat_title">Hide the WeChat title in the title bar</string>
+    <string name="home_side_panel_high_low">High / low</string>
+    <string name="home_side_panel_hitokoto">Hitokoto</string>
+    <string name="home_side_panel_hitokoto_animation">Animation</string>
+    <string name="home_side_panel_hitokoto_comics">Comics</string>
+    <string name="home_side_panel_hitokoto_connection_failed">Could not connect to the Hitokoto service</string>
+    <string name="home_side_panel_hitokoto_games">Games</string>
+    <string name="home_side_panel_hitokoto_http_error">Hitokoto service request failed: HTTP %1$d</string>
+    <string name="home_side_panel_hitokoto_invalid_range">Maximum length cannot be less than minimum length</string>
+    <string name="home_side_panel_hitokoto_literature">Literature</string>
+    <string name="home_side_panel_hitokoto_loading">Loading Hitokoto…</string>
+    <string name="home_side_panel_hitokoto_movies">Film and television</string>
+    <string name="home_side_panel_hitokoto_negative_length">Length cannot be negative</string>
+    <string name="home_side_panel_hitokoto_netease_music">NetEase Cloud Music</string>
+    <string name="home_side_panel_hitokoto_original">Original</string>
+    <string name="home_side_panel_hitokoto_other">Other</string>
+    <string name="home_side_panel_hitokoto_parse_failed">Failed to parse Hitokoto data</string>
+    <string name="home_side_panel_hitokoto_philosophy">Philosophy</string>
+    <string name="home_side_panel_hitokoto_poetry">Poetry</string>
+    <string name="home_side_panel_hitokoto_select_category">Select at least one category</string>
+    <string name="home_side_panel_hitokoto_settings">Hitokoto settings</string>
+    <string name="home_side_panel_hitokoto_tap">Tap the card to get a Hitokoto</string>
+    <string name="home_side_panel_hitokoto_timeout">Hitokoto request timed out</string>
+    <string name="home_side_panel_hitokoto_unsupported_category">An unsupported Hitokoto category is selected</string>
+    <string name="home_side_panel_hitokoto_web">Internet</string>
+    <string name="home_side_panel_hitokoto_witty">Witticisms</string>
+    <string name="home_side_panel_humidity">Humidity</string>
+    <string name="home_side_panel_location_city_not_found">The current city is not in the weather database</string>
+    <string name="home_side_panel_location_disabled">Turn on system location services first</string>
+    <string name="home_side_panel_location_failed">Location failed. Retry or select a city manually.</string>
+    <string name="home_side_panel_location_permission_denied">Location permission was denied. You can still search for or manually select a city.</string>
+    <string name="home_side_panel_location_permission_needed">Location permission is required. Allow it and try again.</string>
+    <string name="home_side_panel_location_permission_undeclared">This WeChat version does not declare approximate location permission. Select a city manually.</string>
+    <string name="home_side_panel_location_timeout">Location timed out. Retry or select a city manually.</string>
+    <string name="home_side_panel_location_unavailable">WeChat cannot access system location services. Select a city manually.</string>
+    <string-array name="home_side_panel_lunar_day_names">
+            <item>day 1</item>
+            <item>day 2</item>
+            <item>day 3</item>
+            <item>day 4</item>
+            <item>day 5</item>
+            <item>day 6</item>
+            <item>day 7</item>
+            <item>day 8</item>
+            <item>day 9</item>
+            <item>day 10</item>
+            <item>day 11</item>
+            <item>day 12</item>
+            <item>day 13</item>
+            <item>day 14</item>
+            <item>day 15</item>
+            <item>day 16</item>
+            <item>day 17</item>
+            <item>day 18</item>
+            <item>day 19</item>
+            <item>day 20</item>
+            <item>day 21</item>
+            <item>day 22</item>
+            <item>day 23</item>
+            <item>day 24</item>
+            <item>day 25</item>
+            <item>day 26</item>
+            <item>day 27</item>
+            <item>day 28</item>
+            <item>day 29</item>
+            <item>day 30</item>
+        </string-array>
+    <string name="home_side_panel_lunar_leap_prefix">leap\u0020</string>
+    <string-array name="home_side_panel_lunar_month_names">
+            <item>1st month</item>
+            <item>2nd month</item>
+            <item>3rd month</item>
+            <item>4th month</item>
+            <item>5th month</item>
+            <item>6th month</item>
+            <item>7th month</item>
+            <item>8th month</item>
+            <item>9th month</item>
+            <item>10th month</item>
+            <item>11th month</item>
+            <item>12th month</item>
+        </string-array>
+    <string name="home_side_panel_lunar_prefix">Lunar\u0020</string>
+    <string name="home_side_panel_lunar_separator">,\u0020</string>
+    <string name="home_side_panel_max_length">Maximum length</string>
+    <string name="home_side_panel_min_length">Minimum length</string>
+    <string name="home_side_panel_no_weather_data">No weather data. Tap the card to retry.</string>
+    <string name="home_side_panel_online">Online</string>
+    <string name="home_side_panel_open_panel">Open side panel</string>
+    <string name="home_side_panel_open_profile">Open profile</string>
+    <string name="home_side_panel_open_profile_failed">Could not open the profile page</string>
+    <string name="home_side_panel_open_status_failed">Could not open the status editor</string>
+    <string name="home_side_panel_open_switch_account">Switch account</string>
+    <string name="home_side_panel_open_switch_account_failed">Could not open the WeChat switch-account page</string>
+    <string name="home_side_panel_payment_code">Payment code</string>
+    <string name="home_side_panel_read_profile">Read from profile</string>
+    <string name="home_side_panel_refresh_status">Refresh status</string>
+    <string name="home_side_panel_refresh_too_frequent">Requests are too frequent. Try again later.</string>
+    <string name="home_side_panel_save_editing">Save side panel layout</string>
+    <string name="home_side_panel_save_failed">Could not save the side panel layout. Your draft is still open.</string>
+    <string name="home_side_panel_scan">Scan</string>
+    <string name="home_side_panel_search_action">Search</string>
+    <string name="home_side_panel_search_city">Search cities</string>
+    <string name="home_side_panel_search_city_failed">Could not load the city index. Try searching again.</string>
+    <string name="home_side_panel_search_city_no_results">No matching city or district was found</string>
+    <string name="home_side_panel_searching_city">Searching cities…</string>
+    <string name="home_side_panel_settings">Side panel settings</string>
+    <string name="home_side_panel_show_author">Show author</string>
+    <string name="home_side_panel_show_lunar_calendar">Show lunar calendar</string>
+    <string name="home_side_panel_show_source">Show source</string>
+    <string name="home_side_panel_show_toolbar_profile">Show the “Me” widget in the WeChat title bar</string>
+    <string name="home_side_panel_updated_at">Updated at %1$s</string>
+    <string name="home_side_panel_wallet_settings">Wallet settings</string>
+    <string name="home_side_panel_weather">Weather</string>
+    <string name="home_side_panel_weather_connection_failed">Could not connect to the weather service</string>
+    <string name="home_side_panel_weather_http_error">Weather service request failed: HTTP %1$d</string>
+    <string name="home_side_panel_weather_incomplete">The weather service returned incomplete data</string>
+    <string name="home_side_panel_weather_invalid">The weather service returned invalid data</string>
+    <string name="home_side_panel_weather_missing_city">No city is set in the profile</string>
+    <string name="home_side_panel_weather_missing_region">No region is set in the profile</string>
+    <string name="home_side_panel_weather_no_city">No weather city selected</string>
+    <string name="home_side_panel_weather_no_match">Could not match the city in the weather database</string>
+    <string name="home_side_panel_weather_profile_read_error">Failed to read the profile</string>
+    <string name="home_side_panel_weather_settings">Weather settings</string>
+    <string name="home_side_panel_weather_timeout">Weather request timed out</string>
+    <string name="home_side_panel_weather_unsupported_country">The profile region is not supported</string>
+    <string name="home_side_panel_wechat_user">WeChat user</string>
+    <string name="home_side_panel_wind_speed">Wind speed</string>
+    <string name="loading">Loading…</string>
+    <string name="unknown">Unknown</string>
+    <string name="weather_blizzard">Blizzard</string>
+    <string name="weather_blowing_snow">Blowing snow</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_dust">Floating dust</string>
+    <string name="weather_dust_storm">Dust storm</string>
+    <string name="weather_fog">Fog</string>
+    <string name="weather_freezing_rain">Freezing rain</string>
+    <string name="weather_hail_thunderstorm">Thunderstorms with hail</string>
+    <string name="weather_haze">Haze</string>
+    <string name="weather_heavy_rain">Heavy rain</string>
+    <string name="weather_heavy_rain_to_rainstorm">Heavy rain to rainstorm</string>
+    <string name="weather_heavy_rainstorm">Heavy rainstorm</string>
+    <string name="weather_heavy_snow">Heavy snow</string>
+    <string name="weather_heavy_snow_to_blizzard">Heavy snow to blizzard</string>
+    <string name="weather_heavy_to_severe_rainstorm">Heavy to severe rainstorm</string>
+    <string name="weather_light_rain">Light rain</string>
+    <string name="weather_light_snow">Light snow</string>
+    <string name="weather_light_to_moderate_rain">Light to moderate rain</string>
+    <string name="weather_light_to_moderate_snow">Light to moderate snow</string>
+    <string name="weather_mist">Mist</string>
+    <string name="weather_moderate_rain">Moderate rain</string>
+    <string name="weather_moderate_snow">Moderate snow</string>
+    <string name="weather_moderate_to_heavy_rain">Moderate to heavy rain</string>
+    <string name="weather_moderate_to_heavy_snow">Moderate to heavy snow</string>
+    <string name="weather_overcast">Overcast</string>
+    <string name="weather_rainstorm">Rainstorm</string>
+    <string name="weather_rainstorm_to_heavy">Rainstorm to heavy rainstorm</string>
+    <string name="weather_sand">Blowing sand</string>
+    <string name="weather_severe_dust_storm">Severe dust storm</string>
+    <string name="weather_severe_rainstorm">Severe rainstorm</string>
+    <string name="weather_shower">Showers</string>
+    <string name="weather_sleet">Sleet</string>
+    <string name="weather_snow_shower">Snow showers</string>
+    <string name="weather_squall">Squall</string>
+    <string name="weather_sunny">Sunny</string>
+    <string name="weather_thunderstorm">Thunderstorms</string>
+    <string name="weather_tornado">Tornado</string>
+    <string name="module_theme">Theme mode</string>
+    <string name="module_theme_light">Light</string>
+    <string name="module_theme_dark">Dark</string>
+    <string name="module_navigation_style">Bottom navigation style</string>
+    <string name="module_nav_hyperos">HyperOS bar</string>
+    <string name="module_nav_hyperos_floating">HyperOS floating bar</string>
+    <string name="module_nav_liquid">Liquid glass bar</string>
+    <string name="module_navigation_labels">Navigation labels</string>
+    <string name="module_labels_both">Icons and text</string>
+    <string name="module_labels_icon">Icons only</string>
+    <string name="module_labels_text">Text only</string>
+    <string name="module_predictive_back">Predictive back animation</string>
+    <string name="module_back_progress">Maximum back animation progress</string>
+    <string name="module_logging">Diagnostic logging</string>
+    <string name="module_logging_summary">Off by default. Enable module logs in LSPosed and Logcat for troubleshooting.</string>
+    <string name="settings_save_failed">Unable to save settings. Try again.</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_builtin">Built-in language</string>
+    <string name="language_custom">Custom language pack</string>
+    <string name="language_actions">Language actions</string>
+    <string name="language_import">Import language pack…</string>
+    <string name="language_new">New language pack</string>
+    <string name="language_new_summary">Start from the LiquidGlass translation template</string>
+    <string name="language_edit">Edit language pack</string>
+    <string name="language_export">Export JSON</string>
+    <string name="language_delete">Delete</string>
+    <string name="language_options">Manage</string>
+    <string name="language_json">Language pack JSON</string>
+    <string name="language_imported">Language pack imported. Select its card to apply it.</string>
+    <string name="language_invalid">Invalid or oversized language pack. Check its name, locale and strings (maximum 128 KB).</string>
+    <string name="language_saved">Language pack saved</string>
+    <string name="language_exported">Language pack exported</string>
+    <string name="language_export_failed">Unable to export. Try again.</string>
+    <string name="language_delete_title">Delete language pack?</string>
+    <string name="language_delete_summary">Deleting the active pack returns the app language to the system default.</string>
+    <string name="language_discard_title">Discard changes?</string>
+    <string name="language_discard_summary">Unsaved language pack changes will be lost.</string>
+    <string name="language_discard">Discard</string>
+    <string name="module_adjust_value">Adjust value</string>
+    <string name="wechat_round_avatars_title">Rounded avatars</string>
+    <string name="wechat_round_avatars_summary">Use circular avatars in chats and message notifications. Wait for a new message; restart WeChat if cached avatars do not update.</string>
+
+    <!-- Apple Music settings, shared LiquidGlass UI. -->
+    <string name="action_ok">OK</string>
+    <string name="am_settings">Apple Music settings</string>
+    <string name="am_dual_pane">Tablet dual-pane player</string>
+    <string name="am_dual_pane_summary">Use two panes in tablet landscape and disable Editorial Video</string>
+    <string name="am_nav_compensation">Tablet navigation compensation</string>
+    <string name="am_nav_compensation_summary">Enable if the bottom bar displays incorrectly</string>
+    <string name="am_phone_glass">Phone liquid-glass navigation</string>
+    <string name="am_phone_glass_summary">Glass bottom bar and mini player; restart Apple Music to apply</string>
+    <string name="am_bar_gap">Bottom-bar distance from screen bottom</string>
+    <string name="am_panel_blur">Bottom-bar and mini-player background blur</string>
+    <string name="am_future_blur">Bidirectional lyric blur</string>
+    <string name="am_future_blur_summary">Resumes one second after manual scrolling stops</string>
+    <string name="am_cjk_animation">CJK extended karaoke animation</string>
+    <string name="am_cjk_animation_summary">Native rush-gradient animation for CJK lyrics; restart Apple Music</string>
+    <string name="am_title_correction">Song-title correction</string>
+    <string name="am_title_correction_summary">Uses the account when off; uses the selected region when on. Restart required</string>
+    <string name="am_title_mode">Title-correction mode</string>
+    <string name="am_title_original">Original song region</string>
+    <string name="am_title_china">Mainland China</string>
+    <string name="am_title_japan">Japan</string>
+    <string name="am_custom_lyrics">Custom lyrics</string>
+    <string name="am_custom_lyrics_summary">%1$d configured lyrics · Manage Apple Music ID mappings</string>
+    <string name="am_advanced">Advanced settings</string>
+    <string name="am_lyric_blur_offset">Lyric blur-radius offset</string>
+    <string name="am_dpi">Apple Music internal DPI</string>
+    <string name="am_dpi_system">Follow system</string>
+    <string name="am_dpi_range">160–640; 0 follows the system</string>
+    <string name="am_dpi_summary">Changes resource density inside Apple Music. Force-stop and reopen after saving.</string>
+    <string name="am_lyrics_font">Lyric font</string>
+    <string name="am_choose_font">Choose font</string>
+    <string name="am_clear_font">Restore original font</string>
+    <string name="am_clear_font_confirm">Remove the custom lyric font? Restart Apple Music to restore the original.</string>
+    <string name="am_font_original">Original font · Import TTF / OTF</string>
+    <string name="am_font_summary">Applies only to player lyrics; restart Apple Music</string>
+    <string name="am_help">Help</string>
+    <string name="am_restart">Restart notice</string>
+    <string name="am_restart_summary">Force-stop and reopen Apple Music after changing fonts, player layout or options that require a restart</string>
+    <string name="am_scope_help">LSPosed configuration</string>
+    <string name="am_scope_help_summary">Enable LiquidGlass in LSPosed and select Apple Music (com.apple.android.music) in its scope. Force-stop and reopen Apple Music after changing settings.</string>
+    <string name="am_replace_lyrics">Custom-lyrics replacement</string>
+    <string name="am_replace_lyrics_summary">Apply enabled TTML mappings by Apple Music ID</string>
+    <string name="am_auto_lyrics">Automatic lyric completion</string>
+    <string name="am_auto_lyrics_summary">Complete lyrics from online sources; requires custom-lyrics replacement</string>
+    <string name="am_manage_lyrics">Lyric management</string>
+    <string name="am_add_lyrics">Add lyrics</string>
+    <string name="am_edit_lyrics">Edit lyrics</string>
+    <string name="am_import_ttml">Import TTML</string>
+    <string name="am_update_lyrics">Update lyrics</string>
+    <string name="am_update_lyrics_summary">Check remote sources and update existing lyrics</string>
+    <string name="am_backup_restore">Backup / restore</string>
+    <string name="am_backup">Back up lyrics</string>
+    <string name="am_restore">Restore backup</string>
+    <string name="am_restore_conflict">For matching Apple Music IDs, keep existing lyrics or replace them with the backup. Non-conflicting lyrics are retained.</string>
+    <string name="am_keep_existing">Keep existing lyrics</string>
+    <string name="am_overwrite">Overwrite from backup</string>
+    <string name="am_lyrics_search">Search name or Apple Music ID</string>
+    <string name="am_lyrics_empty">No matching lyrics. Add lyrics or import TTML.</string>
+    <string name="am_lyrics_enabled">Enable this lyric mapping</string>
+    <string name="am_id_count">%1$d IDs</string>
+    <string name="am_load_more">Load more</string>
+    <string name="am_delete_lyrics">Delete lyric mappings?</string>
+    <string name="am_delete_lyrics_summary">This deletes all %1$d Apple Music ID mappings in this group.</string>
+    <string name="am_lyrics_details">Lyric details</string>
+    <string name="am_music_ids">Apple Music ID</string>
+    <string name="am_music_ids_summary">Separate positive IDs with commas; each ID may appear only once</string>
+    <string name="am_display_name">Display name</string>
+    <string name="am_lyrics_source">Lyric source</string>
+    <string name="am_get_id">Get current song ID</string>
+    <string name="am_online_import">Import from an online source</string>
+    <string name="am_ttml_content">TTML content</string>
+    <string name="am_source_cache">Automatic cache</string>
+    <string name="am_source_manual">Manual TTML</string>
+    <string name="am_loading">Loading settings…</string>
+    <string name="am_retry">Retry loading settings</string>
+    <string name="am_operation_failed">Operation could not be completed</string>
+    <string name="am_checking_lyrics">Checking lyrics…</string>
+    <string name="am_update_progress">Checking %1$d / %2$d lyrics…\nUpdated %3$d · Unchanged %4$d · Skipped %5$d · Failed %6$d</string>
+    <string name="am_ids_invalid">Enter one or more unique positive Apple Music IDs, separated by commas</string>
+    <string name="am_ttml_required">Enter or import TTML</string>
+    <string name="am_song_missing">No current song is available. Play a song in Apple Music with LiquidGlass enabled.</string>
+    <string name="am_import_failed">Could not read valid TTML. Check the file.</string>
+    <string name="am_import_draft_ready">Lyrics imported. Review the content and save.</string>
+    <string name="am_working">Working…</string>
+    <string name="am_draft_missing">The editor draft could not be restored. Import it again. Saved lyrics are unaffected.</string>
+</resources>

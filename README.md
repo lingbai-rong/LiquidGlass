@@ -4,7 +4,7 @@ LiquidGlass 是適用於 LSPosed 的 Android 液態底欄模組，透過系統�
 
 本模組以 Android 15 以上、API 102 與 arm64-v8a 環境為主要適配目標，支援自訂底欄外觀、應用導覽適配、原生底欄隱藏、畫面取景與液態渲染等功能。
 
-## 適配列表（部分應用更新不可以用）
+## 適配列表
 
 ### 通用應用
 
@@ -51,5 +51,8 @@ LiquidGlass 是適用於 LSPosed 的 Android 液態底欄模組，透過系統�
 - 筆記
 - 指南針
 
+## 授權
 
+本專案自有程式碼採用 Apache License 2.0。
 
+第三方元件與上游程式碼仍依其各自的授權條款及版權聲明使用，完整資訊請參閱 `LICENSE` 與 `THIRD_PARTY_NOTICES.md`。
