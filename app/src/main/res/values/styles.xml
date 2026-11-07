@@ -1,8 +1,0 @@
-<resources>
-    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
-        <item name="android:windowDisablePreview">true</item>
-        <item name="android:colorAccent">#307EE5</item>
-    </style>
-</resources>

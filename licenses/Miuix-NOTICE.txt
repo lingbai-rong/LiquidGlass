@@ -1,7 +1,0 @@
-Miuix / compose-miuix-ui
-Copyright 2025, compose-miuix-ui contributors
-Licensed under the Apache License, Version 2.0.
-
-HostNavigationBarItem.kt is adapted from the Miuix 0.9.3 NavigationBarItem implementation
-to accept native bitmap and Canvas icons, retaining its public dimensions and tint/press states.
-Source: https://github.com/miuix-kotlin-multiplatform/miuix/blob/v0.9.3/miuix-ui/src/commonMain/kotlin/top/yukonga/miuix/kmp/basic/NavigationBar.kt

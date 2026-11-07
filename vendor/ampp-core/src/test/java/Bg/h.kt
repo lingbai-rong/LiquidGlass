@@ -1,3 +1,0 @@
-package Bg
-
-interface h
