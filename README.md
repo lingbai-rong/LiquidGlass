@@ -51,8 +51,5 @@ LiquidGlass 是適用於 LSPosed 的 Android 液態底欄模組，透過系統�
 - 筆記
 - 指南針
 
-## 授權
-
-本專案採用 Apache License 2.0。
 
 
