@@ -1,0 +1,429 @@
+<resources>
+    <string name="app_name">LiquidGlass</string>
+    <string name="module_desc">為應用程式加入液態玻璃</string>
+
+    <string name="nav_home">主頁</string>
+    <string name="nav_settings">設定</string>
+    <string name="nav_config">配置</string>
+
+    <string name="home_title">LiquidGlass</string>
+    <string name="home_status_title">工作中</string>
+    <string name="home_working_version">版本：%1$s</string>
+    <string name="home_status_summary">已啟用 %1$d 個應用程式，%2$d 個已安裝適配可用</string>
+    <string name="home_enabled_apps">已啟用應用程式</string>
+    <string name="home_installed_apps">已安裝適配</string>
+    <string name="home_device_info">裝置資訊</string>
+    <string name="home_device_name">裝置名稱</string>
+    <string name="home_device_model">機型</string>
+    <string name="home_system">系統</string>
+    <string name="home_render_mode">目前渲染方式</string>
+    <string name="home_version">模組版本</string>
+    <string name="render_mode_native">HyperOS 原生模糊</string>
+    <string name="render_mode_capture">背景取景玻璃</string>
+    <string name="render_mode_disabled">背景取景已關閉</string>
+    <string name="config_title">配置</string>
+    <string name="config_subtitle">應用程式與全域外觀</string>
+    <string name="about_module">關於 LiquidGlass</string>
+    <string name="about_module_summary">正式版 %1$s · 作者 白</string>
+
+    <string name="search_settings">搜尋設定項目</string>
+    <string name="no_matching_settings">沒有符合的設定項目</string>
+    <string name="section_features">功能設定</string>
+    <string name="global_appearance">全域外觀</string>
+    <string name="global_appearance_summary">同步尺寸、模糊與玻璃參數</string>
+    <string name="section_app_settings">應用程式設定</string>
+    <string name="mi_apps">米系應用程式</string>
+    <string name="mi_apps_summary">已安裝 %1$d/%2$d 個應用程式</string>
+    <string name="section_other">其他</string>
+    <string name="missing_apps">未安裝的應用程式</string>
+    <string name="missing_apps_summary">尚有 %1$d 個支援的應用程式未安裝</string>
+    <string name="unable_open_author">無法開啟作者主頁</string>
+    <string name="missing_apps_page_summary">安裝後即可進入獨立設定</string>
+    <string name="missing_apps_empty">目前沒有未安裝的支援應用程式</string>
+    <string name="mi_apps_page_summary">HyperOS 系統應用程式獨立適配</string>
+    <string name="mi_apps_empty">目前沒有米系應用程式適配項目</string>
+    <string name="state_not_installed">未安裝</string>
+    <string name="state_enabled">已啟用</string>
+    <string name="state_disabled">已關閉</string>
+
+    <string name="module_settings_title">設定</string>
+    <string name="module_settings_subtitle">語言、入口與其他</string>
+    <string name="account_cancel">取消</string>
+    <string name="section_interface">個人化</string>
+    <string name="show_launcher_icon">顯示桌面圖示</string>
+    <string name="show_launcher_icon_summary">關閉後桌面入口會消失，仍可從 LSPosed 模組設定開啟</string>
+    <string name="language">語言</string>
+    <string name="section_advanced">一般</string>
+    <string name="developer_options">開發者選項</string>
+    <string name="developer_options_summary">應用程式圖示讀取、偵錯與實驗功能</string>
+    <string name="launcher_icon_hidden">桌面圖示已隱藏</string>
+    <string name="launcher_icon_shown">桌面圖示已顯示</string>
+    <string name="launcher_icon_failed">無法修改桌面圖示狀態</string>
+
+
+    <string name="language_title">語言</string>
+    <string name="language_subtitle">選擇模組設定應用程式的顯示語言</string>
+    <string name="language_system">跟隨系統</string>
+    <string name="language_zh_cn">简体中文</string>
+    <string name="language_zh_tw">繁體中文</string>
+    <string name="language_en">English</string>
+    <string name="language_change_failed">無法切換語言</string>
+
+    <string name="developer_title">開發者選項</string>
+    <string name="developer_subtitle">偵錯與實驗功能</string>
+    <string name="developer_section_apps">應用程式資訊</string>
+    <string name="developer_read_app_icons">讀取應用程式圖示</string>
+    <string name="developer_read_app_icons_summary">從已安裝的應用程式讀取真實圖示並顯示於配置清單；關閉時使用字母預留圖示</string>
+    <string name="developer_section_appearance">介面實驗</string>
+    <string name="developer_page_wallpaper">啟用主頁桌布</string>
+    <string name="developer_page_wallpaper_summary">在主頁、配置和設定頁面顯示人物線稿背景；預設關閉</string>
+
+    <!-- WeKit HomeSidePanel resources (GPL-3.0), kept with upstream names. -->
+    <string name="action_add">添加</string>
+    <string name="action_back">返回</string>
+    <string name="action_restore_defaults">恢復默認</string>
+    <string name="action_save">保存</string>
+    <string name="fab_all_marked_read">已將全部未讀消息標爲已讀</string>
+    <string name="fab_default_channels">視頻號</string>
+    <string name="fab_default_favorites">收藏夾</string>
+    <string name="fab_default_force_stop">強行停止</string>
+    <string name="fab_default_mark_all_read">清空未讀</string>
+    <string name="fab_default_module_settings">模塊設置</string>
+    <string name="fab_default_moments">朋友圈</string>
+    <string name="fab_default_restart_wechat">重啓微信</string>
+    <string name="fab_default_scan">掃一掃</string>
+    <string name="fab_default_settings">設置</string>
+    <string name="fab_default_wallet">錢包</string>
+    <string name="home_side_panel_action_launch_failed">當前微信版本無法打開此動作</string>
+    <string name="home_side_panel_add_action">添加動作</string>
+    <string name="home_side_panel_add_card">添加卡片</string>
+    <string name="home_side_panel_attribution_author">—— %1$s</string>
+    <string name="home_side_panel_attribution_author_source">—— %1$s「%2$s」</string>
+    <string name="home_side_panel_attribution_source">——「%1$s」</string>
+    <string name="home_side_panel_auto_detect">自動檢測</string>
+    <string name="home_side_panel_card_date_time">日期與時間</string>
+    <string name="home_side_panel_card_hitokoto">一言</string>
+    <string name="home_side_panel_card_horizontal_actions">橫向磁貼</string>
+    <string name="home_side_panel_card_vertical_actions">縱向列表</string>
+    <string name="home_side_panel_card_wallet">錢包</string>
+    <string name="home_side_panel_card_weather">天氣</string>
+    <string name="home_side_panel_categories">分類</string>
+    <string name="home_side_panel_current_balance">當前餘額</string>
+    <string name="home_side_panel_current_city">當前城市：%1$s %2$s</string>
+    <string name="home_side_panel_date_pattern">M月d日 E</string>
+    <string name="home_side_panel_date_time_settings">日期與時間設置</string>
+    <string name="home_side_panel_delete_action">刪除動作</string>
+    <string name="home_side_panel_delete_card">刪除卡片</string>
+    <string name="home_side_panel_delete_empty_action_card">刪除空動作卡片</string>
+    <string name="home_side_panel_discard_editing">關閉並放棄更改</string>
+    <string name="home_side_panel_drag_action">在此卡片內拖動動作以排序</string>
+    <string name="home_side_panel_drag_add_action">拖動以插入此動作</string>
+    <string name="home_side_panel_drag_add_card">拖動以插入此卡片</string>
+    <string name="home_side_panel_drag_card">拖動卡片以排序</string>
+    <string name="home_side_panel_edit_card">編輯卡片</string>
+    <string name="home_side_panel_enter_edit_mode">進入編輯模式</string>
+    <string name="home_side_panel_fallback_initial">微</string>
+    <string name="home_side_panel_feels_like">體感 %1$s°</string>
+    <string name="home_side_panel_fetch_failed">獲取失敗</string>
+    <string name="home_side_panel_geocoder_failed">無法將當前位置轉換爲城市</string>
+    <string name="home_side_panel_greeting_afternoon">下午好，願今天一切順利。</string>
+    <string name="home_side_panel_greeting_evening">晚上好，願你今晚安心入睡。</string>
+    <string name="home_side_panel_greeting_morning">早上好，今天也要保持好心情。</string>
+    <string name="home_side_panel_hide_balance_default">默認隱藏餘額</string>
+    <string name="home_side_panel_hide_balance_details">啓用後，點擊錢包卡片可臨時顯示或隱藏餘額；關閉側欄後自動恢復隱藏。臨時狀態不會保存。</string>
+    <string name="home_side_panel_hide_balance_summary">打開側欄時默認顯示 ******</string>
+    <string name="home_side_panel_hide_wechat_title">隱藏微信標題欄微信字樣</string>
+    <string name="home_side_panel_high_low">最高 / 最低</string>
+    <string name="home_side_panel_hitokoto">一言</string>
+    <string name="home_side_panel_hitokoto_animation">動畫</string>
+    <string name="home_side_panel_hitokoto_comics">漫畫</string>
+    <string name="home_side_panel_hitokoto_connection_failed">無法連接一言服務</string>
+    <string name="home_side_panel_hitokoto_games">遊戲</string>
+    <string name="home_side_panel_hitokoto_http_error">一言服務請求失敗：HTTP %1$d</string>
+    <string name="home_side_panel_hitokoto_invalid_range">最大長度不能小於最小長度</string>
+    <string name="home_side_panel_hitokoto_literature">文學</string>
+    <string name="home_side_panel_hitokoto_loading">一言加載中…</string>
+    <string name="home_side_panel_hitokoto_movies">影視</string>
+    <string name="home_side_panel_hitokoto_negative_length">長度不能爲負數</string>
+    <string name="home_side_panel_hitokoto_netease_music">網易雲</string>
+    <string name="home_side_panel_hitokoto_original">原創</string>
+    <string name="home_side_panel_hitokoto_other">其他</string>
+    <string name="home_side_panel_hitokoto_parse_failed">一言數據解析失敗</string>
+    <string name="home_side_panel_hitokoto_philosophy">哲學</string>
+    <string name="home_side_panel_hitokoto_poetry">詩詞</string>
+    <string name="home_side_panel_hitokoto_select_category">至少選擇一個分類</string>
+    <string name="home_side_panel_hitokoto_settings">一言設置</string>
+    <string name="home_side_panel_hitokoto_tap">點擊卡片獲取一言</string>
+    <string name="home_side_panel_hitokoto_timeout">一言請求超時</string>
+    <string name="home_side_panel_hitokoto_unsupported_category">包含不支持的一言分類</string>
+    <string name="home_side_panel_hitokoto_web">網絡</string>
+    <string name="home_side_panel_hitokoto_witty">抖機靈</string>
+    <string name="home_side_panel_humidity">溼度</string>
+    <string name="home_side_panel_location_city_not_found">天氣城市庫中找不到當前城市</string>
+    <string name="home_side_panel_location_disabled">請先開啓系統定位服務</string>
+    <string name="home_side_panel_location_failed">定位失敗，請重試或手動選擇城市</string>
+    <string name="home_side_panel_location_permission_denied">定位權限已拒絕，仍可搜索或手動選擇城市</string>
+    <string name="home_side_panel_location_permission_needed">需要定位權限，請允許後重試</string>
+    <string name="home_side_panel_location_permission_undeclared">當前微信版本未聲明粗略定位權限，請手動選擇城市</string>
+    <string name="home_side_panel_location_timeout">定位超時，請重試或手動選擇城市</string>
+    <string name="home_side_panel_location_unavailable">當前微信無法訪問系統定位服務，請手動選擇城市</string>
+    <string-array name="home_side_panel_lunar_day_names">
+            <item>初一</item>
+            <item>初二</item>
+            <item>初三</item>
+            <item>初四</item>
+            <item>初五</item>
+            <item>初六</item>
+            <item>初七</item>
+            <item>初八</item>
+            <item>初九</item>
+            <item>初十</item>
+            <item>十一</item>
+            <item>十二</item>
+            <item>十三</item>
+            <item>十四</item>
+            <item>十五</item>
+            <item>十六</item>
+            <item>十七</item>
+            <item>十八</item>
+            <item>十九</item>
+            <item>二十</item>
+            <item>廿一</item>
+            <item>廿二</item>
+            <item>廿三</item>
+            <item>廿四</item>
+            <item>廿五</item>
+            <item>廿六</item>
+            <item>廿七</item>
+            <item>廿八</item>
+            <item>廿九</item>
+            <item>三十</item>
+        </string-array>
+    <string name="home_side_panel_lunar_leap_prefix">閏</string>
+    <string-array name="home_side_panel_lunar_month_names">
+            <item>正月</item>
+            <item>二月</item>
+            <item>三月</item>
+            <item>四月</item>
+            <item>五月</item>
+            <item>六月</item>
+            <item>七月</item>
+            <item>八月</item>
+            <item>九月</item>
+            <item>十月</item>
+            <item>冬月</item>
+            <item>臘月</item>
+        </string-array>
+    <string name="home_side_panel_lunar_prefix">農曆</string>
+    <string name="home_side_panel_lunar_separator">,\u0020</string>
+    <string name="home_side_panel_max_length">最長長度</string>
+    <string name="home_side_panel_min_length">最短長度</string>
+    <string name="home_side_panel_no_weather_data">暫無天氣數據，點擊卡片重試</string>
+    <string name="home_side_panel_online">在線</string>
+    <string name="home_side_panel_open_panel">打開側欄</string>
+    <string name="home_side_panel_open_profile">打開個人資料</string>
+    <string name="home_side_panel_open_profile_failed">無法打開個人資料頁</string>
+    <string name="home_side_panel_open_status_failed">無法打開狀態編輯頁</string>
+    <string name="home_side_panel_open_switch_account">切換賬號</string>
+    <string name="home_side_panel_open_switch_account_failed">無法打開微信切換賬號頁面</string>
+    <string name="home_side_panel_payment_code">付款碼</string>
+    <string name="home_side_panel_read_profile">從個人資料讀取</string>
+    <string name="home_side_panel_refresh_status">刷新狀態</string>
+    <string name="home_side_panel_refresh_too_frequent">請求過於頻繁，請稍後再試</string>
+    <string name="home_side_panel_save_editing">保存側欄佈局</string>
+    <string name="home_side_panel_save_failed">無法保存側欄佈局，草稿仍保留在編輯器中</string>
+    <string name="home_side_panel_scan">掃一掃</string>
+    <string name="home_side_panel_search_action">搜索</string>
+    <string name="home_side_panel_search_city">搜索城市</string>
+    <string name="home_side_panel_search_city_failed">城市庫加載失敗，請再次搜索</string>
+    <string name="home_side_panel_search_city_no_results">沒有找到匹配的城市或區縣</string>
+    <string name="home_side_panel_searching_city">正在搜索城市…</string>
+    <string name="home_side_panel_settings">側欄設置</string>
+    <string name="home_side_panel_show_author">顯示作者</string>
+    <string name="home_side_panel_show_lunar_calendar">顯示農曆</string>
+    <string name="home_side_panel_show_source">顯示來源</string>
+    <string name="home_side_panel_show_toolbar_profile">在微信標題欄顯示「我」組件</string>
+    <string name="home_side_panel_updated_at">更新於 %1$s</string>
+    <string name="home_side_panel_wallet_settings">錢包設置</string>
+    <string name="home_side_panel_weather">天氣</string>
+    <string name="home_side_panel_weather_connection_failed">無法連接天氣服務</string>
+    <string name="home_side_panel_weather_http_error">天氣服務請求失敗：HTTP %1$d</string>
+    <string name="home_side_panel_weather_incomplete">天氣服務返回的數據不完整</string>
+    <string name="home_side_panel_weather_invalid">天氣服務返回了無效數據</string>
+    <string name="home_side_panel_weather_missing_city">個人資料中沒有城市</string>
+    <string name="home_side_panel_weather_missing_region">個人資料中沒有地區</string>
+    <string name="home_side_panel_weather_no_city">未選擇天氣城市</string>
+    <string name="home_side_panel_weather_no_match">無法在天氣城市庫中匹配該城市</string>
+    <string name="home_side_panel_weather_profile_read_error">讀取個人資料失敗</string>
+    <string name="home_side_panel_weather_settings">天氣設置</string>
+    <string name="home_side_panel_weather_timeout">天氣請求超時</string>
+    <string name="home_side_panel_weather_unsupported_country">不支持的資料地區</string>
+    <string name="home_side_panel_wechat_user">微信用戶</string>
+    <string name="home_side_panel_wind_speed">風速</string>
+    <string name="loading">加載中…</string>
+    <string name="unknown">未知</string>
+    <string name="weather_blizzard">暴雪</string>
+    <string name="weather_blowing_snow">吹雪</string>
+    <string name="weather_cloudy">多雲</string>
+    <string name="weather_dust">浮塵</string>
+    <string name="weather_dust_storm">沙塵暴</string>
+    <string name="weather_fog">霧</string>
+    <string name="weather_freezing_rain">凍雨</string>
+    <string name="weather_hail_thunderstorm">雷陣雨並伴有冰雹</string>
+    <string name="weather_haze">霾</string>
+    <string name="weather_heavy_rain">大雨</string>
+    <string name="weather_heavy_rain_to_rainstorm">大雨-暴雨</string>
+    <string name="weather_heavy_rainstorm">大暴雨</string>
+    <string name="weather_heavy_snow">大雪</string>
+    <string name="weather_heavy_snow_to_blizzard">大雪-暴雪</string>
+    <string name="weather_heavy_to_severe_rainstorm">大暴雨-特大暴雨</string>
+    <string name="weather_light_rain">小雨</string>
+    <string name="weather_light_snow">小雪</string>
+    <string name="weather_light_to_moderate_rain">小雨-中雨</string>
+    <string name="weather_light_to_moderate_snow">小雪-中雪</string>
+    <string name="weather_mist">輕霧</string>
+    <string name="weather_moderate_rain">中雨</string>
+    <string name="weather_moderate_snow">中雪</string>
+    <string name="weather_moderate_to_heavy_rain">中雨-大雨</string>
+    <string name="weather_moderate_to_heavy_snow">中雪-大雪</string>
+    <string name="weather_overcast">陰</string>
+    <string name="weather_rainstorm">暴雨</string>
+    <string name="weather_rainstorm_to_heavy">暴雨-大暴雨</string>
+    <string name="weather_sand">揚沙</string>
+    <string name="weather_severe_dust_storm">強沙塵暴</string>
+    <string name="weather_severe_rainstorm">特大暴雨</string>
+    <string name="weather_shower">陣雨</string>
+    <string name="weather_sleet">雨夾雪</string>
+    <string name="weather_snow_shower">陣雪</string>
+    <string name="weather_squall">颮</string>
+    <string name="weather_sunny">晴</string>
+    <string name="weather_thunderstorm">雷陣雨</string>
+    <string name="weather_tornado">龍捲風</string>
+    <string name="module_theme">主題模式</string>
+    <string name="module_theme_light">淺色模式</string>
+    <string name="module_theme_dark">深色模式</string>
+    <string name="module_navigation_style">底部導覽列樣式</string>
+    <string name="module_nav_hyperos">HyperOS 底欄</string>
+    <string name="module_nav_hyperos_floating">HyperOS 懸浮底欄</string>
+    <string name="module_nav_liquid">液態玻璃底欄</string>
+    <string name="module_navigation_labels">底部導覽列標籤顯示方式</string>
+    <string name="module_labels_both">圖示與文字</string>
+    <string name="module_labels_icon">僅圖示</string>
+    <string name="module_labels_text">僅文字</string>
+    <string name="module_predictive_back">預測性返回動畫</string>
+    <string name="module_back_progress">返回動畫最大進度</string>
+    <string name="module_logging">輸出偵錯日誌</string>
+    <string name="module_logging_summary">預設關閉。開啟後記錄模組的 LSPosed 與 Logcat 日誌，用於排查問題。</string>
+    <string name="settings_save_failed">設定儲存失敗，請重試</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_builtin">內建語言</string>
+    <string name="language_custom">自訂語言包</string>
+    <string name="language_actions">語言操作</string>
+    <string name="language_import">匯入語言包…</string>
+    <string name="language_new">新增語言包</string>
+    <string name="language_new_summary">依據 LiquidGlass 翻譯範本建立</string>
+    <string name="language_edit">編輯語言包</string>
+    <string name="language_export">匯出 JSON</string>
+    <string name="language_delete">刪除</string>
+    <string name="language_options">管理</string>
+    <string name="language_json">語言包 JSON</string>
+    <string name="language_imported">語言包已匯入，點選卡片即可使用</string>
+    <string name="language_invalid">語言包無效或過大，請檢查名稱、語言代碼和 strings 欄位（最大 128 KB）</string>
+    <string name="language_saved">語言包已儲存</string>
+    <string name="language_exported">語言包已匯出</string>
+    <string name="language_export_failed">匯出失敗，請重試</string>
+    <string name="language_delete_title">刪除語言包？</string>
+    <string name="language_delete_summary">刪除正在使用的語言包後，將恢復跟隨系統。</string>
+    <string name="language_discard_title">放棄修改？</string>
+    <string name="language_discard_summary">未儲存的語言包修改將遺失。</string>
+    <string name="language_discard">放棄</string>
+    <string name="module_adjust_value">數值調整</string>
+    <string name="wechat_round_avatars_title">圓角頭像</string>
+    <string name="wechat_round_avatars_summary">聊天及訊息通知使用圓形頭像；現有通知請等待新訊息，快取未更新時重啟微信</string>
+
+    <!-- Apple Music settings, shared LiquidGlass UI. -->
+    <string name="action_ok">確定</string>
+    <string name="am_settings">Apple Music 設定</string>
+    <string name="am_dual_pane">平板雙欄播放器</string>
+    <string name="am_dual_pane_summary">平板橫向啟用雙欄，同時停用 Editorial Video</string>
+    <string name="am_nav_compensation">平板底欄補償</string>
+    <string name="am_nav_compensation_summary">底欄顯示異常時開啟</string>
+    <string name="am_phone_glass">手機液態玻璃底欄</string>
+    <string name="am_phone_glass_summary">底欄與迷你播放器使用液態玻璃效果，重開 Apple Music 後生效</string>
+    <string name="am_bar_gap">底欄高度（距螢幕底部）</string>
+    <string name="am_panel_blur">底欄與迷你播放器背景模糊強度</string>
+    <string name="am_future_blur">雙向歌詞模糊</string>
+    <string name="am_future_blur_summary">手動捲動停止 1 秒後恢復</string>
+    <string name="am_cjk_animation">CJK 長尾歌詞動畫</string>
+    <string name="am_cjk_animation_summary">CJK 歌詞啟用原生 rush-gradient 動畫，重開 Apple Music 後生效</string>
+    <string name="am_title_correction">歌曲名稱顯示修正</string>
+    <string name="am_title_correction_summary">關閉時跟隨 Apple Music 帳號；開啟後使用所選地區，需重開應用</string>
+    <string name="am_title_mode">歌曲名稱修正模式</string>
+    <string name="am_title_original">按歌曲原地區修正</string>
+    <string name="am_title_china">固定中國大陸</string>
+    <string name="am_title_japan">固定日本</string>
+    <string name="am_custom_lyrics">自訂歌詞</string>
+    <string name="am_custom_lyrics_summary">已設定 %1$d 首歌詞 · 新增和管理 Apple Music ID 對應</string>
+    <string name="am_advanced">進階設定</string>
+    <string name="am_lyric_blur_offset">歌詞模糊半徑偏移</string>
+    <string name="am_dpi">Apple Music 內部 DPI</string>
+    <string name="am_dpi_system">跟隨系統</string>
+    <string name="am_dpi_range">160–640，0 表示跟隨系統</string>
+    <string name="am_dpi_summary">僅影響 Apple Music 行程內的資源密度。儲存後強制停止並重開 Apple Music。</string>
+    <string name="am_lyrics_font">歌詞字型</string>
+    <string name="am_choose_font">選擇字型</string>
+    <string name="am_clear_font">恢復原字型</string>
+    <string name="am_clear_font_confirm">清除自訂歌詞字型，並在重開 Apple Music 後恢復原字型？</string>
+    <string name="am_font_original">原字型 · 可匯入 TTF / OTF</string>
+    <string name="am_font_summary">僅覆蓋播放器歌詞，重開 Apple Music 後生效</string>
+    <string name="am_help">說明</string>
+    <string name="am_restart">重新啟動提示</string>
+    <string name="am_restart_summary">字型、雙欄播放器及需重新啟動的選項，修改後請強制停止並重開 Apple Music</string>
+    <string name="am_scope_help">LSPosed 設定提示</string>
+    <string name="am_scope_help_summary">在 LSPosed 中啟用 LiquidGlass，並勾選 Apple Music（com.apple.android.music）的作用域。修改設定後，請強制停止再重開 Apple Music。</string>
+    <string name="am_replace_lyrics">自訂歌詞替換</string>
+    <string name="am_replace_lyrics_summary">依 Apple Music ID 套用已啟用的 TTML 對應</string>
+    <string name="am_auto_lyrics">自動即時補全</string>
+    <string name="am_auto_lyrics_summary">從線上來源補全歌詞；需先啟用自訂歌詞替換</string>
+    <string name="am_manage_lyrics">歌詞管理</string>
+    <string name="am_add_lyrics">新增歌詞</string>
+    <string name="am_edit_lyrics">編輯歌詞</string>
+    <string name="am_import_ttml">匯入 TTML</string>
+    <string name="am_update_lyrics">更新歌詞</string>
+    <string name="am_update_lyrics_summary">檢查遠端來源，並更新現有歌詞</string>
+    <string name="am_backup_restore">備份 / 還原</string>
+    <string name="am_backup">備份歌詞</string>
+    <string name="am_restore">還原備份</string>
+    <string name="am_restore_conflict">遇到相同 Apple Music ID 時，選擇保留現有歌詞或用備份覆蓋。未衝突的歌詞都會保留。</string>
+    <string name="am_keep_existing">保留現有歌詞</string>
+    <string name="am_overwrite">用備份覆蓋</string>
+    <string name="am_lyrics_search">搜尋名稱或 Apple Music ID</string>
+    <string name="am_lyrics_empty">沒有相符的歌詞。可新增或匯入 TTML。</string>
+    <string name="am_lyrics_enabled">啟用此歌詞對應</string>
+    <string name="am_id_count">共 %1$d 個 ID</string>
+    <string name="am_load_more">載入更多</string>
+    <string name="am_delete_lyrics">刪除歌詞對應？</string>
+    <string name="am_delete_lyrics_summary">此操作會刪除本組的 %1$d 個 Apple Music ID 對應。</string>
+    <string name="am_lyrics_details">歌詞資訊</string>
+    <string name="am_music_ids">Apple Music ID</string>
+    <string name="am_music_ids_summary">多個正整數 ID 用英文逗號分隔；每個 ID 只能填寫一次</string>
+    <string name="am_display_name">顯示名稱</string>
+    <string name="am_lyrics_source">歌詞來源</string>
+    <string name="am_get_id">取得目前歌曲 ID</string>
+    <string name="am_online_import">從線上來源匯入</string>
+    <string name="am_ttml_content">TTML 內容</string>
+    <string name="am_source_cache">自動快取</string>
+    <string name="am_source_manual">手動 TTML</string>
+    <string name="am_loading">正在讀取設定…</string>
+    <string name="am_retry">重試讀取設定</string>
+    <string name="am_operation_failed">操作未完成</string>
+    <string name="am_checking_lyrics">正在檢查歌詞…</string>
+    <string name="am_update_progress">正在檢查 %1$d / %2$d 條歌詞…\n更新 %3$d · 無變化 %4$d · 略過 %5$d · 失敗 %6$d</string>
+    <string name="am_ids_invalid">請輸入一個或多個不重複的正整數 Apple Music ID，用英文逗號分隔</string>
+    <string name="am_ttml_required">請輸入或匯入 TTML</string>
+    <string name="am_song_missing">未取得目前歌曲資訊。請先在已啟用模組的 Apple Music 中播放一首歌。</string>
+    <string name="am_import_failed">無法讀取有效的 TTML，請檢查檔案</string>
+    <string name="am_import_draft_ready">已匯入歌詞，請確認內容後儲存</string>
+    <string name="am_working">正在處理…</string>
+    <string name="am_draft_missing">未能還原編輯草稿，請重新匯入。已儲存的歌詞沒有受到影響。</string>
+</resources>
